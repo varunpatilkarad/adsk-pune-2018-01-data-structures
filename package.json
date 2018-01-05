@@ -1,0 +1,22 @@
+{
+  "name": "data-structures-es2015",
+  "version": "1.0.0",
+  "description": "Explore various data structures using ES2015 syntax",
+  "engines": {
+    "node": ">8.0.0"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "jest-environment-node-debug": "^2.0.0",
+    "underscore": "^1.8.3"
+  },
+  "unmockedModulePathPatterns": [
+    "<rootDir>/spec/.*"
+  ],
+  "main": "index.js"
+}
